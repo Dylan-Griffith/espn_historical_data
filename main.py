@@ -2,10 +2,10 @@ import pandas as pd
 from ff_espn_api import League
 
 league_id = 207951
-years = [2015, 2016, 2017, 2018]
-swid = '{EBA13257-A03D-4F49-A132-57A03DDF49E2}'
-espn_s2 = 'AEA6V72GDokBcm9I5EtHPmnb69ywSlFDv68rZfa2HGA18RnnTKF8OzjAt%2FLGtz0PuM1CrZAVWyK7faqZ%2BwThvxWqIS20HVtHe6WmYAMt3rZbhBZAa3NkeShrB3fgUUIeYgQ3f8k1dJ8mw0SPrLV7KKxDTZzik6vpEkd%2BgslXJ5dTj63mjhB1%2Blp84dgi3mL58Sv8NvHUH%2FYTaAZCax8pXx7M7eDKbiWOtgDmPx1ec7w6tnrUJerrxg04gVYZ2Kp4wQn%2FeAYG7tfDyWRYq0OqSuOG'
 
+years = [2015, 2016, 2017, 2018]
+swid = '{}'
+espn_s2 = ''
 
 def get_weekly_data(week, year):
     league = League(league_id, year, espn_s2, swid)
